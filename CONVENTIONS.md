@@ -14,3 +14,6 @@ Definieer expliciete route-namen waar mogelijk en vermijd generieke namen.
 # 4. Commentaar
 - Schrijf commentaar boven functies en methoden om te beschrijven wat ze doen, indien de logica niet direct duidelijk is.
 Gebruik PHPDoc-commentaar voor methoden, vooral als ze parameters en retourwaarden hebben.
+
+# 5. Consistentie in Taalgebruik
+- Houd dezelfde taal aan in de gehele applicatie voor naamgeving (bijvoorbeeld Engels of Nederlands, maar niet door elkaar). Dit geldt voor methoden, variabelen, comments, en routes.
