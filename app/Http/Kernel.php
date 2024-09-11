@@ -45,6 +45,13 @@ class Kernel extends HttpKernel
         ],
     ];
 
+    /** check admin  */
+    protected $routeMiddleware = [
+        // Andere middleware
+        'admin' => \App\Http\Middleware\CheckAdministrator::class,
+    ];
+    
+
     /**
      * The application's middleware aliases.
      *
